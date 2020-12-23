@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body,h1,h2,h3,h4,h5,p,a{
+    font-family: 'Work Sans', sans-serif;
+}
+@font-face{
+    font-family: roadtest;
+    src: url("roadtest.ttf");
+}
+.container{
+    width: 733px;
+    margin: auto;
+    padding: 0 30px;
+}
+.header{
+    background: #252526;
+    text-align: center;
+    border-bottom: 1px solid rgb(54, 52, 52);
+
+}
+.header h2 {
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #fff;
+    font-size: 36px;
+    position: relative;
+    left: 158px;
+    font-weight: bold;
+}
+img {
+    width: 53px;
+    border-radius: 50%;
+    position: relative;
+    top: 7px;
+}
+.containers {
+    width: 916px;
+    margin: auto;
+}
+.navbar-dark .navbar-brand {
+    color: #fff;
+    font-size: 27px;
+    
+}
+.nab-header{}
+.logo {
+    font-family: roadtest;
+    font-size: 52px !important;
+    position: relative;
+    left: -117px;
+}
+
+/* container */
+.contain{
+    background: #1e1e1e;
+    padding: 40px 0 39px 0;
+}
+ul{
+    list-style: none;
+    padding-left: 30px;
+}
+.contain ul li{
+    margin-bottom: 15px;
+    color: #ddd;
+}
+.contain ul li a{
+    text-decoration: none;
+    color: aqua;
+}
+.contain ul li a:hover{
+    text-decoration: underline;
+}
+.contain p {
+    margin-bottom: -26px;
+    color: #ddd;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 42px;
+}
+
